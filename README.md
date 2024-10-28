@@ -1,6 +1,6 @@
-# Project Name
+# Odin Signup Form
 
-> One paragraph statement about the project.
+> This is an odin sign up form built with HTML and CSS.
 
 ![screenshot](./app_screenshot.png)
 
