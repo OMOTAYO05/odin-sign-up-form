@@ -1,16 +1,31 @@
-# Project Name
+# Odin Signup Form
 
-> One paragraph statement about the project.
+> This is an odin sign up form built with HTML and CSS.
 
-![screenshot](./app_screenshot.png)
+![ODIN SIGNUP](image.png)
 
 Additional description of the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5,
+  - `main`
+  - `div`
+  - `img`
+  - `body`
+  - `label`
+  - `button`
+- CSS,
+  - `display`
+  - `width`
+  - `flex-direction`
+  - `justify-content`
+  - `align-items`
+  - `background-color`
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/),
+- Github Action
 
 ## Live Demo
 
@@ -21,7 +36,7 @@ Additional description of the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/bolah2009/html-css-template.git
+git clone https://github.com/OMOTAYO05/html-css-template.git
 
 ```
 
@@ -93,9 +108,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- splash.com
+- freecodecamp
+- google
+- odin
 
 ## 📝 License
 

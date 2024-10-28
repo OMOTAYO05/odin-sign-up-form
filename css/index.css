@@ -1,11 +1,145 @@
-/* Example of @import use
-This imports the `reset.css` file */
-@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
 
-/* For testing purposes, delete this code */
+.main {
+  flex-direction: row;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
-  font-size: max(20vw, 400px);
-  width: min(20vw, 400px);
-  margin: 20px;
+  margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-main {
+  background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+  width: 35vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-main {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  width: 65vw;
+}
+
+.first {
+  height: 33vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.second {
+  background-color: white;
+  height: 33vh;
+}
+
+.form-main-div {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 200px;
+  border: 1px solid #e5e7eb;
+  height: 24px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid rgb(76 76 177);
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+label {
+  font-size: 10px;
+  color: #3b3b3c;
+}
+
+.third {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.btn-green {
+  background-color: #596d48;
+  color: white;
+  border: 1px solid #596d48;
+  border-radius: 10px;
+  height: 40px;
+  width: 175px;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.hyperlink {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.login {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.a-footer {
+  color: white;
+}
+
+.p-footer {
+  font-size: 12px;
+}
+
+.forimage {
+  height: 40vh;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+}
+
+.forfooter {
+  display: flex;
+  align-items: flex-end;
+  height: 60vh;
+  width: 100%;
+  justify-content: center;
+  color: white;
+}
+
+.trans {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(0 0 0 / 60%);
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.style {
+  margin-left: 50px;
+  padding-top: 10px;
 }
