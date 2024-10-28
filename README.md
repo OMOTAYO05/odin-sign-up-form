@@ -9,22 +9,22 @@ Additional description of the project and its features.
 ## Built With
 
 - HTML5,
-   - `main`
-   - `div`
-   - `img`
-   - `body`
-   - `label`
-   - `button`
+  - `main`
+  - `div`
+  - `img`
+  - `body`
+  - `label`
+  - `button`
 - CSS,
-   - `display`
-   - `width`
-   - `flex-direction`
-   - `justify-content`
-   - `align-items`
-   - `background-color`
+  - `display`
+  - `width`
+  - `flex-direction`
+  - `justify-content`
+  - `align-items`
+  - `background-color`
 - Linters
-   - [Prettier](https://prettier.io/),
-   - [Stylelint](https://stylelint.io/),
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/),
 - Github Action
 
 ## Live Demo
@@ -111,7 +111,7 @@ Give a ⭐️ if you like this project!
 - splash.com
 - freecodecamp
 - google
-- odin 
+- odin
 
 ## 📝 License
 
